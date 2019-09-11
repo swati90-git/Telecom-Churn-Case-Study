@@ -1,0 +1,36 @@
+Client:Mobicom
+Domain:Telecom
+Designation:Business Analyst
+
+Project Details:
+MOBICOM, is a telecommunication company which provide mobile network services to the customers.
+According to Industry survey report , Mobicom is concerned about the market environment of rising churn rates and declining ARPU, and it will hit them harder than competitors as churn rate at Mobicom is relatively high.  .
+Management team wants to focus on increasing minutes of usage(MOU), rate plan migration and building strategy among others.
+The agenda of this case study is to find which factor affects churn rate.
+
+
+Data Details:
+The data given had 81 attributes of 66297 records, each describing overall usage of each customers,their demo graphic information and 
+if they have unsubscribed their service or not as the churn column.
+
+Techniques Used:
+Descriptive Statistics.
+Variable Profiling.
+Logistic Regression.
+Clustering.
+
+Role:
+Understanding the whole documentation of the business problem and acquiring knowledge about each attributes in the given dataset.
+Derived variable to use correct parameter for Network and service quality and Whether customers are on optimal plan or not.
+Cleaning data,Deleted all the columns where only 10% of information was given.
+Outlier Treatment,Profiling of each variable to impute missing values where required.
+Built logistic regression model using backward selection algorithm and validated it. 
+Predicted churn rate for each customer.
+
+Suggestion given to client:
+1. Company should roll out family bundles for families with 7 unique subscribers. 
+2. Asian Ethnicity People should be offered special plan as per their call requirement(Ex. include plans for international calls to certain country.)
+3. Special plans should be launched for customers located in Northwest/Rocky Mountain area and South Florida Area.
+4. It is very important for company to encourage users to use Internet services as it is major reason for customer migration.
+5. Company should bring new plans and special offers for customers who makes retention calls at the earliest as per their requirement.
+6. Customer with high overage revenue and higher churn rate should be targeted on priority.
